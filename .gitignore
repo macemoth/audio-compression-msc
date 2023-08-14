@@ -1,4 +1,5 @@
-*.tcad
+*.ltc
+*.tc
 *.wav
 .DS_Store
 .idea/
