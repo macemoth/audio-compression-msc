@@ -91,7 +91,7 @@ def decompress(infile):
     
     # Undo serialisation
     indexes = np.unpackbits(indexbytes)
-    indexes = indexes[:m*n].reshape([m, n]) # remove pa
+    indexes = indexes[:m*n].reshape([m, n]) # remove padding
     indexes = np.array(indexes, dtype=bool)
     
     residue = np.frombuffer(residuebytes, dtype=np.int8)
