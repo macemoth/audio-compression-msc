@@ -27,3 +27,7 @@ Install dependencies using `pip3 install -r requirements.txt`
 For working through the complete `tensor.ipynb` notebook, TTHRESH (available at <https://github.com/rballester/tthresh>) is required.
 
 1. Install TTHRESH and the tensorly library `pip3 install tensorly`
+
+## Fractal image compression
+
+1. Run `pip3 install scipy`
