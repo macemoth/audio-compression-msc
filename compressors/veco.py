@@ -129,8 +129,9 @@ if __name__ == "__main__":
     if len(sys.argv) not in (3, 4):
         print("Unexpected number of arguments")
         print("Usage:")
-        print("Compression: python3 veco.py c <input>.wav")
+        print("Compression: python3 veco.py c F <input>.wav")
         print("Decompression: python3 veco.py d <compressed>.vc")
+        print("F is a compression factor 1...20")
     mode = sys.argv[1]
 
     if mode not in ["c", "d"]:
